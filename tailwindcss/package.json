@@ -5,7 +5,8 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "watch":"npx tailwindcss -i tailwind.css -o ../app.css --watch",
-    "final":"npx tailwindcss -i tailwind.css -o ../final.css --minify"
+    "build":"npx tailwindcss -i tailwind.css -o ../final.css --minify",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   }
 }
