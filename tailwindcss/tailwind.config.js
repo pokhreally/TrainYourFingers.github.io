@@ -3,7 +3,7 @@ module.exports = {
   mode:"jit",
   purge:["../*.html"],
   darkMode: "class",
-  content: [],
+  content: ["../*.html"],
   theme: {
     extend: {},
   },
