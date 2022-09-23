@@ -8,6 +8,6 @@
     "watch":"npx tailwindcss -i tailwind.css -o ../final.css --watch",
     "build":"npx tailwindcss -i tailwind.css -o ../final.css --minify",
     "predeploy":"npm run build",
-    "deploy":"-d build"
+    "deploy":"gh-pages -d build"
   }
 }
