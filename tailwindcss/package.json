@@ -7,6 +7,7 @@
   "scripts": {
     "watch":"npx tailwindcss -i tailwind.css -o ../final.css --watch",
     "build":"npx tailwindcss -i tailwind.css -o ../final.css --minify",
-    "predeploy":"npm run watch"
+    "predeploy":"npm run watch",
+    "deploy":"gh-pages -d build"
   }
 }
