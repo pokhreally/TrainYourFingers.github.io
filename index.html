@@ -4,38 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    <link rel="stylesheet" href="final.css">
+    <title>sulavpokhrel</title>
+    <!-- <link rel="stylesheet" href="final.css"> -->
+    <link rel="stylesheet" href="app.css">
     <style>
         .h-mid{
             height: 86%;
         }
     </style>
 </head>
-<body class="h-screen w-screen bg-black">
-    <nav class="text-white max-w-2xl px-20 py-5 mx-auto text-2xl text-center font-bold">
-        <ul class="flex justify-between">
-            <li class="hover:text-blue-400 cursor-pointer duration-200">Home</li>
-            <li class="hover:text-blue-400 cursor-pointer duration-200">About</li>
-            <li class="hover:text-blue-400 cursor-pointer duration-200">Contact</li>
-            <li class="hover:text-blue-400 cursor-pointer duration-200">Login</li>
-        </ul>
+<body class="backgroundimage h-screen w-screen bg-black bg-[url('./photos/47598.jpg')] bg-center bg-cover">
+    <nav class="text-white w-full px-20 py-5 text-2xl flex justify-between">
+        <div class="logo w-1/2">
+            <img src="photos/whiteLogo.svg" alt="sulav pokhrel" width="100px" />
+        </div>
+        <div class="w-1/2 flex">
+            <div class="listings w-4/5 ">
+                <ul class="flex justify-evenly  text-2xl font-bold">
+                    <li class="hover:text-orange-400 duration-200"><a href="">Home</a></li>
+                    <li class="hover:text-orange-400 duration-200"><a href="">Portfolio</a></li>
+                    <li class="hover:text-orange-400 duration-200"><a href="">Contact</a></li>
+                    <li class="hover:text-orange-400 duration-200"><a href="">About</a></li>
+                </ul>
+            </div>
+            <div class="socials w-1/5 ">
+                <ul class="flex justify-evenly">
+                    <li class="hover:text-blue-400 duration-200"><a href="https://github.com/TrainYourFingers"><img src="photos/icons/github-32.png"/></a></li>
+                    <li class="hover:text-blue-400 duration-200"><a href="https://twitter.com/SulovePokhrel"></a><img src="photos/icons/twitter-32.png"/></a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="h-mid w-full bg-white px-20 py-5">
-    <h1 class="font-bold text-5xl text-right">Did you Know?</h1>
-
-        <p class="font-semibold text-lg text-orange-400 py-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Dolore libero debitis, aspernatur quaerat iusto quae quis 
-            aut odio totam minus sequi illum reiciendis dolores nisi 
-            recusandae amet temporibus! Corporis, magnam?
-            Dolore libero debitis, aspernatur quaerat iusto quae quis 
-            aut odio totam minus sequi illum reiciendis dolores nisi 
-            recusandae amet temporibus! Corporis, magnam?
-        </p>
+    <div class="h-mid w-full px-20 py-5">
+        <h1 class=" font-bold text-8xl font-serif pt-10 text-white">Sulav<br/>Pokhrel</h1>
+        <div class="bg-orange-400 w-16 h-4 rounded-md my-3"></div>
+        <p class="font-semibold text-xl text-white font-sans w-1/4 my-3">Creativity is my favourite weapon. It becomes deadlier when I use my common sense as a poison.</p>
+        <button class="bg-orange-400 px-8 py-4 rounded-md font-semibold text-xl text-white hover:bg-orange-600">Take a tour</button>
     </div>
     <small class="bg-black text-white w-full absolute bottom-0 text-center">
-        Copyright &copy;2022. Build and deployed by <a class="text-blue-500 underline">sulav@gmail.com</a>
+        Copyright &copy;2022. Build and deployed by <a class="text-blue-500 underline" href="#">sulav.pokhrel25@gmail.com</a>
     </small>
 </body>
 </html>
